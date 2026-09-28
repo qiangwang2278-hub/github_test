@@ -1,6 +1,7 @@
 def print_words():
-    print("Hello GitHub!")
-    print("First Modify!")
+    for i in range(10):
+        if i % 2 == 0:
+            print("Hello GitHub!")
 
 
 if __name__ == "__main__":
